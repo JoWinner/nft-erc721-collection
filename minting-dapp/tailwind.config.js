@@ -11,19 +11,19 @@ module.exports = {
             colors: {
                 // General
                 page: {
-                    from_bg: colors.slate[100],
-                    to_bg: colors.slate[200],
+                    from_bg: colors.green[800],
+                    to_bg: colors.green[900],
                 },
-                titles: colors.indigo[600],
+                titles: colors.gray[900],
                 links: {
-                    txt: colors.indigo[600],
-                    hover_txt: colors.indigo[700],
+                    txt: colors.gray[900],
+                    hover_txt: colors.slate[900],
                 },
-                loading_spinner: colors.indigo[500],
+                loading_spinner: colors.gray[500],
                 popups: {
-                    bg: colors.white,
-                    txt: colors.slate[800],
-                    internal_border: colors.slate[200],
+                    bg: colors.green[900],
+                    txt: colors.white,
+                    internal_border: colors.slate[300],
                 },
                 warning: {
                     txt: colors.white,
@@ -38,20 +38,20 @@ module.exports = {
 
                 // Inputs
                 btn: {
-                    txt: colors.slate[800],
-                    bg: colors.white,
+                    txt: colors.slate[200],
+                    bg: colors.gray[900],
                     border: colors.slate[200],
-                    hover_txt: colors.slate[800],
-                    hover_bg: colors.slate[100],
+                    hover_txt: colors.slate[200],
+                    hover_bg: colors.slate[700],
                     hover_border: colors.slate[200],
                 },
                 btn_primary: {
                     txt: colors.white,
-                    bg: colors.indigo[500],
-                    border: colors.indigo[500],
+                    bg: colors.slate[900],
+                    border: colors.slate[900],
                     hover_txt: colors.white,
-                    hover_bg: colors.indigo[600],
-                    hover_border: colors.indigo[600],
+                    hover_bg: colors.gray[700],
+                    hover_border: colors.gray[600],
                 },
                 btn_error: {
                     txt: colors.white,
@@ -61,21 +61,21 @@ module.exports = {
                     hover_bg: colors.red[600],
                     hover_border: colors.red[600],
                 },
-                label: colors.indigo[600],
+                label: colors.gray[300],
                 txt_input: {
-                    txt: colors.indigo[600],
+                    txt: colors.gray[800],
                     bg: colors.white,
-                    border: colors.slate[200],
-                    focus_txt: colors.indigo[600],
+                    border: colors.white,
+                    focus_txt: colors.gray[800],
                     focus_bg: colors.slate[50],
-                    focus_border: colors.indigo[300],
-                    placeholder_txt: colors.indigo[600],
+                    focus_border: colors.white,
+                    placeholder_txt: colors.gray[800],
                 },
 
                 // Whitelist proof widget
                 wl_message: {
-                    txt: colors.slate[800],
-                    bg: colors.indigo[100],
+                    txt: colors.white,
+                    bg: colors.green[900],
                 },
 
                 // Mint widget

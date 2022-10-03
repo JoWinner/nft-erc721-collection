@@ -16,17 +16,17 @@ const CollectionConfig: CollectionConfigInterface = {
   maxSupply: 96000,
   whitelistSale: {
     price: 0.00,
-    maxMintAmountPerTx: 2,
+    maxMintAmountPerTx: 3,
   },
   preSale: {
-    price: 0.07,
-    maxMintAmountPerTx: 4,
+    price: 5.00,
+    maxMintAmountPerTx: 10,
   },
   publicSale: {
     price: 13.00,
     maxMintAmountPerTx: 10,
   },
-  contractAddress: "0x4c214eF31c9971E941F9e50c657A1a3bfAe79873",
+  contractAddress: "0xCc39d28799B1190E42CD67B1E9E6fE9513EF615f",
   marketplaceIdentifier: 'bianca-alliance',
   marketplaceConfig: Marketplaces.openSea,
   whitelistAddresses,
